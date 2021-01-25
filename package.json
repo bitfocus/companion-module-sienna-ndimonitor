@@ -1,0 +1,32 @@
+{
+	"name": "sienna-ndimonitor",
+	"version": "1.0.0",
+	"api_version": "1.0.0",
+	"keywords": [
+		"NDI",
+		"Routing"
+	],
+	"manufacturer": "Sienna",
+	"product": [
+		"NDI Monitor"
+	],
+	"shortname": "ndimonitor",
+	"description": "Companion module for Sienna NDI Monitor",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-sienna-ndimonitor.git"
+	},
+	"author": "Joseph Adams <josephdadams@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bitfocus/companion-module-sienna-ndimonitor/issues"
+	},
+	"homepage": "https://github.com/bitfocus/companion-module-sienna-ndimonitor#readme",
+	"dependencies": {
+		"xml2js": "^0.4.23"
+	}
+}
